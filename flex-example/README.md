@@ -2,7 +2,7 @@ Friend List - flex
 -------------
 [블로그 참고](https://velog.io/@junnkk/Flex-Box)
 
-flex 속성을 이용하여 friend-list 구현
+flex 속성을 이용하여 friend-list UI 구현
 
 <br>
 

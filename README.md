@@ -2,10 +2,10 @@
 ===================
 
  ### 1. Friend List - Flex
+###### [블로그 참고](https://velog.io/@junnkk/Flex-Box)          
 ```
 div 태그 속 flex 속성을 통해 
 채팅 친구 리스트 ui 구현
-###### [블로그 참고](https://velog.io/@junnkk/Flex-Box)
 ```
 <br>
 

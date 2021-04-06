@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/chat.css' />
+
+    <title>
+        <%=title%>
+    </title>
+</head>
+
+<body>
+    <div class="chat">
+        <div class="container">
+            <div class="header">Chat</div>
+            <div class="chat-wrap">
+                <div id="chatting-space"></div>
+                <div class="input-wrap" id="chatForm">
+                    <input type="text" id="msg" />
+                    <button type="submit" id="send">send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+<script src="/javascripts/chat.js"></script>
+
+</html>

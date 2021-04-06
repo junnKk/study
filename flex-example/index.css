@@ -1,0 +1,78 @@
+.header{
+    background: #f2f2f2;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: large;
+    font-weight: bold;
+}
+
+.header > .btn-wrap{
+    position: absolute;
+    left: 5px;
+}
+
+.back-btn{
+    background: transparent;
+    border: none;
+}
+
+.friend-list{
+    background: #f2f2f2; 
+    height: 700px;  
+    overflow-y: scroll;
+}
+
+.friend{
+    background: white;
+    display: flex;
+    padding-left: 5px;
+}
+
+.img-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 40px;
+    border-radius: 50%;
+    
+}
+
+.friend-content{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name{
+    margin: 2px;
+
+}
+
+.text{
+    color: gray;
+    font-size: small;
+    margin: 2px;
+}
+
+.management-btn{
+    background: #fcfcfc;
+    width: 50px;
+    height: 30px;
+    border: 1px solid #f2f2f2;
+    border-radius: 10%;
+}

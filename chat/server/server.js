@@ -43,8 +43,8 @@ app.post('/login', function (req, res) {
 
 let server = http.createServer(app);
 
-app.io = require('socket.io')(server);
-// app.io.attach(server);
+app.io = require('socket.io')();
+app.io.attach(server);
 var socketList = [];
 
 //connection 이라는 이벤트가 들어왔을 때, 그 다음 요소로 오는 콜백 함수 호출.

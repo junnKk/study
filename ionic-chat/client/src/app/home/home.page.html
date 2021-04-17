@@ -10,8 +10,8 @@
   <div class="container">
     <img src="/assets/cute.png" alt="">
     <div class="input-box">
-      <input id="username" type="text" name="username" placeholder="이름을 입력하세요.">
+      <input id="username" type="text" placeholder="이름을 입력하세요." [(ngModel)]="username">
     </div>
-    <button id="login-btn" type="submit" onclick="login()">확인</button>
+    <button id="login-btn" type="submit" (click)="login()">확인</button>
   </div>
 </ion-content>

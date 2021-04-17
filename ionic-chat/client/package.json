@@ -20,7 +20,11 @@
     "@angular/platform-browser-dynamic": "~11.2.0",
     "@angular/router": "~11.2.0",
     "@ionic/angular": "^5.5.2",
+    "axios": "^0.21.1",
+    "ngx-socket-io": "^4.0.0",
     "rxjs": "~6.6.0",
+    "socket.io": "^4.0.1",
+    "socket.io-client": "^4.0.1",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
   },

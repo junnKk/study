@@ -4,12 +4,26 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
   <div class="container">
-    <div class="chatting-space"></div>
+    <ion-content class="chatting-space">
+      <div *ngFor="let data of messages">
+        <div class="entrance" *ngIf="data.name == 'SERVER'">{{data.message}}</div>
+        <div class="message-wrap" *ngIf="data.name != user && data.name != 'SERVER'">
+          <div class="username">
+            {{data.name}}
+          </div>
+          <div class="message">{{data.message}}</div>
+        </div>
+        <div class="my-message-wrap" *ngIf="data.name == user">
+          <div class="username">
+            {{data.name}}
+          </div>
+          <div class="message">{{data.message}}</div>
+        </div>
+      </div>
+    </ion-content>
     <div class="input-wrap">
-      <input id="msg" type="text">
-      <button id="send" type="submit">send</button>
+      <input id="msg" type="text" [(ngModel)]="message">
+      <button id="send" type="submit" (click)="sendMessage()">send</button>
     </div>
   </div>
-</ion-content>
